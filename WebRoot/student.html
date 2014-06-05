@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>student.html</title>
+	
+    
+    
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  </head>
+  
+  <body>
+     <div id="wrapper" style="height: 79px; width: 1003px; ">
+    <strong>Welcome Student!    
+   </strong></div>
+   
+   <div id="login">
+   <form name="submission" action="servlet/LabManServlet?stud" method="post"  > 
+   <strong >Enter Your Name:     </strong><input type="text" name="name" /><br><br><br>
+   <strong >Enter Your RollNo:   </strong><input type="text" name="Roll_no" /> <br><br><br>
+   <strong >Enter Computer No:   </strong><input type="text" name="CompNo" /> <br><br><br>
+   <strong >Enter Your Complaint:</strong> <textarea name="complaints" cols="25" rows="10" ></textarea> <br><br><br>
+   <input type="submit" value="Submit" />
+      </form>
+   </div>
+  </body>
+</html>

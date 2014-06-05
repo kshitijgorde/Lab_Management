@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	
+	background: linear-gradient(white,#AAFFFF);
+}
+
+
+#wrapper{
+	margin-left:150px;
+	text-align:center;
+	font-family:Garamond;
+	padding:0px;
+	background:#FFAAAA;
+	font-size:70px;
+	position:relative;
+	border: 1px solid brown;
+	width:100%;
+	color:#696969;
+	margin-top:3px;
+	box-shadow: 10px 10px 5px #888888;;
+		
+}
+
+#middle{
+	text-align:center;
+	font-family:sans-serif;
+	font-size:38px;
+	position:relative;
+	width:100%;
+	margin-top:40px;
+	color:#FFD400;
+}
+
+#login{
+	font-size:20px;
+	
+	text-align:center;
+	margin-top:60px;
+	position:relative;
+}
